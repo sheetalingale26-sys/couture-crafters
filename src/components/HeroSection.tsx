@@ -24,9 +24,9 @@ const HeroSection = () => {
           <a href="#modules" className="bg-gold-gradient text-primary-foreground px-8 py-3 rounded-sm font-body font-semibold tracking-wide text-sm uppercase hover:opacity-90 transition-opacity">
             Explore Courses
           </a>
-          <a href="tel:9844514703" className="border border-gold-light text-card px-8 py-3 rounded-sm font-body font-semibold tracking-wide text-sm uppercase hover:bg-card/10 transition-colors">
-            Call: 9844514703
-          </a>
+          
+
+
         </div>
       </div>
     </section>);
