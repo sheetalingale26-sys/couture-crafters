@@ -11,7 +11,7 @@ const HeroSection = () => {
 
       <div className="absolute inset-0 bg-hero-overlay" />
       <div className="relative z-10 text-center px-4 max-w-3xl mx-auto">
-        <p className="font-body text-sm tracking-[0.3em] uppercase text-gold-light mb-4 animate-fade-in-up" style={{ animationDelay: "0.2s" }}>ESTABLISHED 20+ YEARS 
+        <p className="font-body text-sm tracking-[0.3em] uppercase text-gold-light mb-4 animate-fade-in-up" style={{ animationDelay: "0.2s" }}>ESTABLISHED 20+ YEARS 
 
         </p>
         <h1 className="font-display text-5xl md:text-7xl font-bold text-card mb-6 animate-fade-in-up leading-tight" style={{ animationDelay: "0.4s" }}>
