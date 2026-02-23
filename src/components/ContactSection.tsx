@@ -65,19 +65,19 @@ const ContactSection = () => {
             </div>
           </a>
 
-          <a
-            href="https://www.mediacomputeredu.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-4 p-6 rounded-sm bg-card border border-border hover:border-primary transition-colors group">
-            <div className="w-12 h-12 rounded-full bg-accent flex items-center justify-center shrink-0 group-hover:bg-primary transition-colors">
-              <Globe className="text-primary group-hover:text-primary-foreground transition-colors" size={20} />
-            </div>
-            <div>
-              <p className="font-body text-xs tracking-widest uppercase text-muted-foreground mb-1">Website</p>
-              <p className="font-display text-lg font-bold text-foreground">www.mediacomputeredu.com</p>
-            </div>
-          </a>
+          
+
+
+
+
+
+
+
+
+
+
+
+
         </div>
       </div>
     </section>);
