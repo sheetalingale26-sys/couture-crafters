@@ -44,7 +44,7 @@ const ContactSection = () => {
             </div>
             <div>
               <p className="font-body text-xs tracking-widest uppercase text-muted-foreground mb-1">Location</p>
-              <p className="font-display text-xl font-bold text-foreground mb-1">20+ Years · 10,000+ Students</p>
+              
               <p className="font-body text-sm text-muted-foreground">
                 At Chennamma Circle, Sardar Ground.<br />
                 MODERN COMPLEX, 3rd FLOOR, KAKTIVES ROAD, BELAGAVI.
