@@ -16,13 +16,13 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-md border-b border-border">
       <div className="container mx-auto px-4 flex items-center justify-between h-16">
         <a href="#home" className="font-display text-xl font-bold text-foreground tracking-wide">MEDIA Fashion
+
           <span className="text-gold-gradient">MEDIA</span> Fashion
         </a>
 
         {/* Desktop */}
         <div className="hidden md:flex items-center gap-8">
-          {links.map((l) =>
-          <a
+          {links.map((l) => <a
             key={l.href}
             href={l.href}
             className="font-body text-sm tracking-widest uppercase text-muted-foreground hover:text-primary transition-colors">
