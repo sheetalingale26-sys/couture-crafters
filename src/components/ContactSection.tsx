@@ -17,8 +17,8 @@ const ContactSection = () => {
         <div className="max-w-lg mx-auto space-y-6">
           <a
             href="tel:9844514703"
-            className="flex items-center gap-4 p-6 rounded-sm bg-card border border-border hover:border-primary transition-colors group"
-          >
+            className="flex items-center gap-4 p-6 rounded-sm bg-card border border-border hover:border-primary transition-colors group">
+
             <div className="w-12 h-12 rounded-full bg-accent flex items-center justify-center group-hover:bg-primary transition-colors">
               <Phone className="text-primary group-hover:text-primary-foreground transition-colors" size={20} />
             </div>
@@ -49,8 +49,8 @@ const ContactSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default ContactSection;
