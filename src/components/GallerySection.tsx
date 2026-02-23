@@ -10,6 +10,9 @@ import img6 from "@/assets/gallery/page3.jpeg";
 import img7 from "@/assets/gallery/page4.jpeg";
 import img8 from "@/assets/gallery/page5.jpeg";
 import img9 from "@/assets/gallery/front_page_1.jpeg";
+import img10 from "@/assets/gallery/sewing_class.png";
+import img11 from "@/assets/gallery/cushions.png";
+import img12 from "@/assets/gallery/green_dress.png";
 
 const images = [
   { src: img1, alt: "Fabric painting with floral design" },
@@ -21,6 +24,9 @@ const images = [
   { src: img7, alt: "Fabric cutting process" },
   { src: img8, alt: "Fashion illustration sketch" },
   { src: img9, alt: "Classic cut fashion display" },
+  { src: img10, alt: "Students in sewing class" },
+  { src: img11, alt: "Decorative smocked cushions" },
+  { src: img12, alt: "Baby in green bow dress" },
 ];
 
 const GallerySection = () => {
