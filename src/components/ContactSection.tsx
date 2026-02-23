@@ -24,7 +24,7 @@ const ContactSection = () => {
             </div>
             <div>
               <p className="font-body text-xs tracking-widest uppercase text-muted-foreground mb-1">Call Us</p>
-              <p className="font-display text-xl font-bold text-foreground">9844514703</p>
+              <p className="font-display text-xl font-bold text-foreground"> 0831 - 7964614 /9844514703</p>
             </div>
           </a>
 
@@ -43,14 +43,14 @@ const ContactSection = () => {
               <MapPin className="text-primary" size={20} />
             </div>
             <div>
-              <p className="font-body text-xs tracking-widest uppercase text-muted-foreground mb-1">Experience</p>
+              <p className="font-body text-xs tracking-widest uppercase text-muted-foreground mb-1">LOCATION 
+              </p>
               <p className="font-display text-xl font-bold text-foreground">20+ Years · 10,000+ Students</p>
             </div>
           </div>
         </div>
       </div>
     </section>);
-
 };
 
 export default ContactSection;
