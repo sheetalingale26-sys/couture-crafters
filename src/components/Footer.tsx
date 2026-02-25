@@ -8,8 +8,8 @@ const Footer = () => {
         <p className="font-body text-sm text-muted-foreground mb-4">
           Shaping Fashion Professionals for Over 20 Years
         </p>
-        <a href="tel:9844514703" className="font-body text-sm text-gold-light hover:underline">
-          📞 9844514703
+        <a href="tel:9844971818" className="font-body text-sm text-gold-light hover:underline">
+          📞 9844971818
         </a>
         <p className="font-body text-xs text-muted-foreground mt-6">
           © {new Date().getFullYear()} MEDIA Fashion Technologies. All rights reserved.

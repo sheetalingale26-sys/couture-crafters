@@ -1,4 +1,4 @@
-import { Phone, MapPin, Clock, Mail, Globe } from "lucide-react";
+import { Phone, MapPin, Clock, Mail, Globe, Instagram } from "lucide-react";
 
 const ContactSection = () => {
   return (
@@ -16,15 +16,14 @@ const ContactSection = () => {
 
         <div className="max-w-lg mx-auto space-y-6">
           <a
-            href="tel:9844514703"
+            href="tel:9844971818"
             className="flex items-center gap-4 p-6 rounded-sm bg-card border border-border hover:border-primary transition-colors group">
-
             <div className="w-12 h-12 rounded-full bg-accent flex items-center justify-center group-hover:bg-primary transition-colors">
               <Phone className="text-primary group-hover:text-primary-foreground transition-colors" size={20} />
             </div>
             <div>
               <p className="font-body text-xs tracking-widest uppercase text-muted-foreground mb-1">Call Us</p>
-              <p className="font-display text-xl font-bold text-foreground"> 0831 - 7964614 /9844514703</p>
+              <p className="font-display text-xl font-bold text-foreground">0831 - 7964614 / 9844971818</p>
             </div>
           </a>
 
@@ -65,18 +64,19 @@ const ContactSection = () => {
             </div>
           </a>
 
-          
-
-
-
-
-
-
-
-
-
-
-
+          <a
+            href="https://www.instagram.com/media_computer_official"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-4 p-6 rounded-sm bg-card border border-border hover:border-primary transition-colors group">
+            <div className="w-12 h-12 rounded-full bg-accent flex items-center justify-center shrink-0 group-hover:bg-primary transition-colors">
+              <Instagram className="text-primary group-hover:text-primary-foreground transition-colors" size={20} />
+            </div>
+            <div>
+              <p className="font-body text-xs tracking-widest uppercase text-muted-foreground mb-1">Instagram</p>
+              <p className="font-display text-lg font-bold text-foreground">@media_computer_official</p>
+            </div>
+          </a>
 
         </div>
       </div>

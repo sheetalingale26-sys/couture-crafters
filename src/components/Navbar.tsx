@@ -29,11 +29,12 @@ const Navbar = () => {
               {l.label}
             </a>
           )}
-          
-
-
-
-
+          <a
+            href="tel:9844971818"
+            className="flex items-center gap-2 bg-gold-gradient text-primary-foreground px-4 py-2 rounded-sm text-sm font-semibold hover:opacity-90 transition-opacity">
+            <Phone size={14} />
+            9844971818
+          </a>
 
 
         </div>
@@ -58,11 +59,10 @@ const Navbar = () => {
             </a>
         )}
           <a
-          href="tel:9844514703"
+          href="tel:9844971818"
           className="mt-2 flex items-center justify-center gap-2 bg-gold-gradient text-primary-foreground px-4 py-2 rounded-sm text-sm font-semibold">
-
             <Phone size={14} />
-            9844514703
+            9844971818
           </a>
         </div>
       }
