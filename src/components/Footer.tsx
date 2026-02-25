@@ -11,6 +11,11 @@ const Footer = () => {
         <a href="tel:9844971818" className="font-body text-sm text-gold-light hover:underline">
           📞 9844971818
         </a>
+        <div className="mt-2">
+          <a href="https://www.instagram.com/media_computer_official" target="_blank" rel="noopener noreferrer" className="font-body text-sm text-gold-light hover:underline">
+            📷 @media_computer_official
+          </a>
+        </div>
         <p className="font-body text-xs text-muted-foreground mt-6">
           © {new Date().getFullYear()} MEDIA Fashion Technologies. All rights reserved.
         </p>
