@@ -51,18 +51,17 @@ const ContactSection = () => {
             </div>
           </div>
 
-          <a
-            href="mailto:mediafashion2007@gmail.com"
-            className="flex items-start gap-4 p-6 rounded-sm bg-card border border-border hover:border-primary transition-colors group">
-            <div className="w-12 h-12 rounded-full bg-accent flex items-center justify-center shrink-0 group-hover:bg-primary transition-colors">
-              <Mail className="text-primary group-hover:text-primary-foreground transition-colors" size={20} />
+          <div className="flex items-start gap-4 p-6 rounded-sm bg-card border border-border">
+            <div className="w-12 h-12 rounded-full bg-accent flex items-center justify-center shrink-0">
+              <Mail className="text-primary" size={20} />
             </div>
             <div>
               <p className="font-body text-xs tracking-widest uppercase text-muted-foreground mb-1">Email</p>
-              <p className="font-display text-lg font-bold text-foreground">mediaiti.bgm45@yahoo.com</p>
-              <p className="font-display text-lg font-bold text-foreground">mediafashion2007@gmail.com</p>
+              <a href="mailto:mediafahion2007@gmail.com" className="font-display text-lg font-bold text-foreground hover:text-primary transition-colors block">mediafahion2007@gmail.com</a>
+              <a href="mailto:mediafashiontechnology@gmail.com" className="font-display text-lg font-bold text-foreground hover:text-primary transition-colors block">mediafashiontechnology@gmail.com</a>
+              <a href="mailto:mediaiti.bgm45@yahoo.com" className="font-display text-lg font-bold text-foreground hover:text-primary transition-colors block">mediaiti.bgm45@yahoo.com</a>
             </div>
-          </a>
+          </div>
 
           <a
             href="https://www.instagram.com/media_computer_official"
