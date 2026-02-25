@@ -13,6 +13,8 @@ import img9 from "@/assets/gallery/front_page_1.jpeg";
 import img10 from "@/assets/gallery/sewing_class.png";
 import img11 from "@/assets/gallery/cushions.png";
 import img12 from "@/assets/gallery/green_dress.png";
+import img13 from "@/assets/gallery/embroidery_floral.png";
+import img14 from "@/assets/gallery/purple_blouse.png";
 
 const images = [
   { src: img1, alt: "Fabric painting with floral design" },
@@ -27,6 +29,8 @@ const images = [
   { src: img10, alt: "Students in sewing class" },
   { src: img11, alt: "Decorative smocked cushions" },
   { src: img12, alt: "Baby in green bow dress" },
+  { src: img13, alt: "Floral embroidery on cloth" },
+  { src: img14, alt: "Purple blouse with gold zardosi work" },
 ];
 
 const GallerySection = () => {
